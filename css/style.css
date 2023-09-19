@@ -11855,6 +11855,42 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+footer a,
+footer .link-like-text {
+  text-decoration: none;
+  color: #333;
+}
+footer .social-icon {
+  background-color: #fff;
+  color: #333;
+  width: 40px;
+  height: 40px;
+  padding: 0.5em 0.75em;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+}
+footer .social-icon:hover {
+  color: rgb(97, 97, 207);
+}
+footer .form-control {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+footer .form-control:hover,
+footer .form-control:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+footer button {
+  padding: 0.5rem;
+  background-image: linear-gradient(90deg, #125dea, #0090ff);
+  color: #ddd;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -11870,6 +11906,22 @@ textarea.form-control-lg {
   background-image: linear-gradient(90deg, #125dea, #0090ff);
   border: none;
   outline: none;
+}
+
+.hero-section {
+  background-image: url(../assets/images/26.png);
+  max-width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 2rem;
+  opacity: 0.9;
+  color: #ffffff;
+}
+
+.hero_content {
+  max-width: 38rem;
 }
 
 .logo {

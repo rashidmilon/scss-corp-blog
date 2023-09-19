@@ -1,7 +1,9 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
-@import "./variables";
-@import "./reset";
-@import "./navbar";
+@import "./footer/footer";
+@import "./reset/reset";
+@import "./navbar/navbar";
+@import "./variable/variables";
+@import "./hero/hero";
 
 // custom css here
 .logo {

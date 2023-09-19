@@ -1,0 +1,41 @@
+footer {
+  a,
+  .link-like-text {
+    text-decoration: none;
+    color: #333;
+  }
+  .social-icon {
+    background-color: #fff;
+    color: #333;
+    width: 40px;
+    height: 40px;
+    padding: 0.5em 0.75em;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .social-icon:hover {
+    color: rgb(97, 97, 207);
+  }
+
+  .form-control {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+  }
+
+  .form-control:hover,
+  .form-control:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+  }
+
+  button {
+    padding: 0.5rem;
+    background-image: linear-gradient(90deg, #125dea, #0090ff);
+    color: #ddd;
+  }
+}
