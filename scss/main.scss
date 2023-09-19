@@ -1,3 +1,9 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
-@import "variables";
-@import "reset";
+@import "./variables";
+@import "./reset";
+
+// custom css here
+.logo {
+  height: 22px;
+  width: 20px;
+}
