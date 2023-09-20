@@ -11948,10 +11948,6 @@ footer button {
   border: 1px solid #000000 !important;
 }
 
-ul li {
-  list-style: none;
-}
-
 .call-to-action-section {
   background-color: #0c0633;
   color: #ffffff;
@@ -11959,7 +11955,7 @@ ul li {
 }
 
 .spec-section {
-  padding: 60px 0;
+  padding: 60px 0 30px 0;
 }
 
 .img-fluid {
@@ -11968,18 +11964,48 @@ ul li {
   border-radius: 1rem;
 }
 
-.spec-text {
-  font-size: 24px;
-  font-weight: 800;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-ul li {
+.spec {
   list-style: none;
+  padding-left: 30px;
 }
 
-ul li::before {
-  font-family: font-awesome 5 free;
+.spec li {
+  margin-bottom: 25px;
+  position: relative;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.spec li ::before {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  font-size: 2rem;
+  content: "\f058";
+  position: absolute;
+  left: -50px;
+  margin-top: 2px;
+  color: #8b62ff;
+}
+
+.band-logo-size {
+  width: 350px;
+  height: 120px;
+  padding: 20px 0;
+}
+
+.band-name {
+  background-color: #0c0633;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.band-call-section {
+  background-color: #0c0633;
+  color: #ffffff;
+  padding: 20px 0px;
 }
 
 .logo {
