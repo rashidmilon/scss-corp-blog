@@ -3,3 +3,27 @@
   color: #ffffff;
   padding: 40px 0px;
 }
+
+.spec-section {
+  padding: 60px 0;
+}
+
+.img-fluid {
+  width: 550px;
+  height: 350px;
+  border-radius: 1rem;
+}
+
+.spec-text {
+  font-size: 24px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li::before {
+  font-family: font-awesome 5 free;
+}
