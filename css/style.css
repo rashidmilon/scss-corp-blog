@@ -11910,18 +11910,43 @@ footer button {
 
 .hero-section {
   background-image: url(../assets/images/26.png);
-  max-width: 100%;
-  height: 100vh;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
+  padding: 12% 0;
   margin-top: 2rem;
   opacity: 0.9;
   color: #ffffff;
 }
 
 .hero_content {
-  max-width: 38rem;
+  padding: 180px 0 0 0;
+  text-shadow: #333;
+}
+
+.feature-icon {
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  display: flex;
+  font-size: 2rem;
+}
+
+.carousel-section {
+  padding: 60px 0 80px 0;
+}
+
+.carousel-indicators {
+  bottom: 0px;
+  transform: translateY(50px);
+}
+
+.carousel-indicator-item {
+  height: 1rem !important;
+  width: 1rem !important;
+  border-radius: 50% !important;
+  border: 1px solid #000000 !important;
+  background-color: gray !important;
 }
 
 .logo {
