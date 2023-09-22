@@ -12024,6 +12024,34 @@ footer button {
   display: flex;
   align-items: baseline;
   align-self: center;
+  align-items: baseline;
+}
+
+.list-unstyled li {
+  position: relative;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.list-unstyled li::before {
+  position: relative;
+  font-family: "FontAwesome";
+  font-weight: 900;
+  left: -15px;
+  top: 6px;
+  font-size: 2rem;
+  content: "\f058";
+  color: #8b62ff;
+}
+
+.card-button {
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  display: flex;
 }
 
 .logo {
