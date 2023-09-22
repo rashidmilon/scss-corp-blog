@@ -12012,6 +12012,20 @@ footer button {
   padding: 20px 0px;
 }
 
+.lead-price {
+  font-size: 60px;
+}
+
+.text-muted {
+  font-size: normal;
+}
+
+.price-flex {
+  display: flex;
+  align-items: baseline;
+  align-self: center;
+}
+
 .logo {
   height: 22px;
   width: 20px;
