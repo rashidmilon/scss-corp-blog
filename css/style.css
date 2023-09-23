@@ -12054,6 +12054,13 @@ footer button {
   display: flex;
 }
 
+.form-control:hover,
+.form-control:focus,
+.textarea {
+  box-shadow: none;
+  color: #8b62ff;
+}
+
 .form-group {
   margin-top: 20px;
 }
